@@ -61,7 +61,7 @@ export default function landingpage(){
               className="shrink-0 aspect-square w-[20px]"
               alt="icon"
             />
-            <div className="my-auto text-sm">Tellus Euismod Pellentesque</div>
+            <div className="my-auto text-sm">Tellus Pellenque</div>
           </div>
           <div className="flex gap-2 justify-center py-3.5 pr-7 pl-5 bg-white rounded-full hover:bg-gray-100 transition duration-300 max-md:pr-5">
             <img
@@ -87,7 +87,7 @@ export default function landingpage(){
               className="shrink-0 aspect-square w-[20px]"
               alt="icon"
             />
-            <div className="my-auto text-sm">Mauris Fermentum Praesent</div>
+            <div className="my-auto text-sm">Mauris Ferment</div>
           </div>
         </div>
         <div className="flex gap-5  max-md:mx-10 ml-20 justify-between px-12 pt-2 pb-2 mt-12 bg-yellow-500 rounded-full  hover:bg-yellow-600 transition duration-300  max-md:mt-10">
@@ -304,7 +304,7 @@ export default function landingpage(){
         <div className="bg-[#F9B800] flex gap-4 px-4  pt-10 max-md:flex-wrap ">
             <div className="bg-[#F9B800] mb-10" >
             <div className="flex flex-col max-md:mx-10 ml-20 mr-4 mt-10  mb-10 text-xl font-semibold max-w-[611px] text-neutral-800">
-      <div className="w-full text-4xl hover:scale-105 transition-transform duration-300 ease-in-out font-['Verdana'] font-bold font-bold max-md:max-w-full max-md:text-xl">
+      <div className="w-full text-4xl hover:scale-105 transition-transform duration-300 ease-in-out font-['Verdana'] font-bold font-bold max-md:max-w-full max-md:text-3xl">
         Cursus Integer <br />
         Consequat Tristique.{" "}
       </div>
@@ -314,7 +314,7 @@ export default function landingpage(){
           className="shrink-0 aspect-square w-[20px]"
         />
         <div className="my-auto text-sm">
-          Ac viverra sed risus praesent.{" "}
+          Ac viverra risus praesent.{" "}
         </div>
       </div>
       <div className="flex gap-2 justify-center self-start px-5 py-3.5 mt-3.5 bg-white rounded-[5000px]">
@@ -323,7 +323,7 @@ export default function landingpage(){
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/62e1164b6eb460caeb8f905d63fb1b94e005ea81a613e7de9147e77f474df64d?apiKey=2ab850804b89467986bf6d3429dba897&"
           className="shrink-0 aspect-square w-[20px]"
         />
-        <div className="my-auto max-md:max-w-full text-sm">Natoqu consectetur pulvinar.</div>
+        <div className="my-auto max-md:max-w-full text-sm">Natoqu consec pulvinar.</div>
       </div>
       <div className="flex gap-2 justify-start  py-3.5 pr-6 pl-5 mt-3.5 bg-white rounded-[5000px] max-md:flex-wrap max-md:pr-5">
         <img
@@ -332,7 +332,7 @@ export default function landingpage(){
           className="shrink-0 aspect-square w-[20px]"
         />
         <div className="my-auto  text-sm max-md:max-w-full ">
-          Sollicdin orna tempus pulvinar.
+          Sollic orna tempus pulinar.
         </div>
       </div>
       <div className="flex gap-3.5 mt-3.5 max-md:flex-wrap">
@@ -341,7 +341,7 @@ export default function landingpage(){
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/62e1164b6eb460caeb8f905d63fb1b94e005ea81a613e7de9147e77f474df64d?apiKey=2ab850804b89467986bf6d3429dba897&"
             className="shrink-0 aspect-square w-[20px]"
           />
-          <div className="my-auto max-md:max-w-full text-sm " >Varius pulvinar</div>
+          <div className="my-auto max-md:max-w-full text-sm " >Varius pulvinar tellus id tes</div>
         </div>
         <div className="flex gap-2 justify-center px-5 py-3.5 bg-white rounded-[5000px]">
           <img
@@ -360,8 +360,8 @@ export default function landingpage(){
           Vulput vulputate suspendisse
         </div>
       </div>
-      <div className="flex gap-5 max-md:mx-5 justify-between px-12 hover:bg-gray-600 transition duration-300 p-3 pb-2 mt-12  text-white bg-black rounded-[5000px] max-md:px-6 max-md:mt-10">
-        <div className="text-md font-bold ">Lorem Ipsum</div>
+      <div className="flex gap-5 justify-between hover:bg-gray-600 transition duration-300 max-md:px-5 max-md:mt-10 px-12 pt-3 pb-2 mt-12 text-md text-white bg-neutral-800 rounded-[5000px] max-md:px-6 max-md:mt-10">
+        <div>Lorem Ipsum</div>
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/2006975ea3684b9f4040f7ec8553353cdc8c57972a4f8fea8f1443fb4a6d049d?apiKey=2ab850804b89467986bf6d3429dba897&"
