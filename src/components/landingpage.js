@@ -21,8 +21,8 @@ export default function landingpage(){
         </div>
 
         <div className="bg-[#FFF1C9] flex gap-4 px-4 pt-10 max-md:mx-auto  whitespace-normal max-md:flex-wrap  max-md:flex-wrap">
-      <div className="bg-[#FFF1C9]">
-        <div className="mt-10 max-md:px-auto">
+      <div className="bg-[#FFF1C9] mb-10">
+        <div className="mt-10  max-md:px-auto">
           <p className=" ml-[85px] font-['Arial'] max-md:mx-10 whitespace-normal font-semibold text-sm text-[#F9B800] uppercase max-md:max-w-full">
             risus praesent vulputate.
           </p>
@@ -90,7 +90,7 @@ export default function landingpage(){
             <div className="my-auto text-sm">Mauris Ferment</div>
           </div>
         </div>
-        <div className="flex gap-5  max-md:mx-10 ml-20 justify-between px-12 pt-2 pb-2 mt-12 bg-yellow-500 rounded-full  hover:bg-yellow-600 transition duration-300  max-md:mt-10">
+        <div className="flex gap-5  max-md:mx-10  ml-20  justify-between px-12 pt-2 pb-2 mt-12 bg-yellow-500 rounded-full  hover:bg-yellow-600 transition duration-300  max-md:mt-10">
           <div className="text-md font-bold pt-1">Lorem Ipsum</div>
           <img
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/49ff386b9372c6be6b60f6e26a6d574f802724e28f81709a479c9aac92de4444?apiKey=2ab850804b89467986bf6d3429dba897&"
@@ -348,7 +348,7 @@ export default function landingpage(){
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/62e1164b6eb460caeb8f905d63fb1b94e005ea81a613e7de9147e77f474df64d?apiKey=2ab850804b89467986bf6d3429dba897&"
             className="shrink-0 aspect-square w-[20px]"
           />
-          <div className="my-auto max-md:max-w-full text-sm">Natoque id tellus consectetur</div>
+          <div className="my-auto max-md:max-w-full text-sm">Natoque tellus consectetur</div>
         </div>
       </div>
       <div className="flex gap-2 justify-start py-3.5 pr-7 pl-5 mt-3.5 bg-white rounded-[5000px] max-md:flex-wrap max-md:pr-5">
@@ -357,7 +357,7 @@ export default function landingpage(){
           className="shrink-0 aspect-square w-[20px]"
         />
         <div className="my-auto text-sm max-md:max-w-full">
-          Vulput vulputate suspendisse
+          Vulput vulputate ndisse
         </div>
       </div>
       <div className="flex gap-5 justify-between hover:bg-gray-600 transition duration-300 max-md:px-5 max-md:mt-10 px-12 pt-3 pb-2 mt-12 text-md text-white bg-neutral-800 rounded-[5000px] max-md:px-6 max-md:mt-10">
@@ -477,13 +477,13 @@ export default function landingpage(){
 
         <div className="bg-[#FFF1C9] px-4 pt-10 max-md:flex-wrap">
             <div className="bg-[#FFF1C9] ">
-        <div className="flex flex-col text-neutral-800 max-md: flex-wrap ">
+        <div className="flex flex-col text-neutral-800 max-md:flex-wrap max-md:mx-10 ">
       <div className="flex flex-col items-center px-16 pb-20  w-full font-bold max-md:px-5 max-md:max-w-full">
         <div className="flex gap-5 hover:scale-105 transition-transform duration-300 ease-in-out justify-between mb-2.5 w-full max-w-screen-2xl max-md:flex-wrap max-md:max-w-full">
           <div className="text-2xl  font-['Verdana'] font-bold mt-10 max-md:max-w-full max-md:text-2xl">
-            Vulputate et pulvinar ethre Suspendisse tellus consecteur
+            Vulputate et pulvinar ethre Suspendisse tellus consecteur.
           </div>
-          <div className="flex gap-5 ml-20 justify-between px-12 pt-4 pb-2 mt-12 max-w-full  bg-yellow-500 hover:bg-yellow-600 transition duration-300 rounded-[5000px] w-[350px] max-md:px-5 max-md:mt-10 max-md:ml-8">
+          <div className="flex gap-5 ml-20 max-md:mx-4 justify-between px-12 pt-4 pb-2 mt-12  bg-yellow-500 hover:bg-yellow-600 transition duration-300 rounded-[5000px] max-md:px-8 max-md:py-3 max-md:mt-10 max-md:ml-4">
         <div className="text-md font-bold ">Lorem Ipsum</div>
         <img
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/49ff386b9372c6be6b60f6e26a6d574f802724e28f81709a479c9aac92de4444?apiKey=2ab850804b89467986bf6d3429dba897&"
