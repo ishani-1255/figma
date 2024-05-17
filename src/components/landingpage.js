@@ -1,10 +1,10 @@
 export default function landingpage(){
     return (
        
-    <>
-        <div className="bg-[#FFF1C9]  px-4  pt-10  ">
+    <div className="">
+        <div className="bg-[#FFF1C9]  pt-10 px-4  ">
        
-            <div className="grid grid-cols-6  py-2 px-2  bg-white rounded-[5000px] max-md:flex-wrap max-md:px-5 max-md:max-w-full hover:shadow-lg transition-shadow duration-300 ease-in-out">
+            <div className="grid grid-cols-6  py-2 px-2  bg-white rounded-[5000px] max-md:flex-wrap max-md:mt-3 hover:shadow-lg transition-shadow duration-300 ease-in-out ">
                 <div className="col-span-5 flex items-end justify-center">
                     <img
                     srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/046099e648a0259351bddd4078e9f66a3153c087feb2f8b611a541e38e615341?apiKey=2ab850804b89467986bf6d3429dba897&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/046099e648a0259351bddd4078e9f66a3153c087feb2f8b611a541e38e615341?apiKey=2ab850804b89467986bf6d3429dba897&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/046099e648a0259351bddd4078e9f66a3153c087feb2f8b611a541e38e615341?apiKey=2ab850804b89467986bf6d3429dba897&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/046099e648a0259351bddd4078e9f66a3153c087feb2f8b611a541e38e615341?apiKey=2ab850804b89467986bf6d3429dba897&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/046099e648a0259351bddd4078e9f66a3153c087feb2f8b611a541e38e615341?apiKey=2ab850804b89467986bf6d3429dba897&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/046099e648a0259351bddd4078e9f66a3153c087feb2f8b611a541e38e615341?apiKey=2ab850804b89467986bf6d3429dba897&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/046099e648a0259351bddd4078e9f66a3153c087feb2f8b611a541e38e615341?apiKey=2ab850804b89467986bf6d3429dba897&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/046099e648a0259351bddd4078e9f66a3153c087feb2f8b611a541e38e615341?apiKey=2ab850804b89467986bf6d3429dba897&"
@@ -20,22 +20,22 @@ export default function landingpage(){
             </div>
         </div>
 
-        <div className="bg-[#FFF1C9] flex gap-4 px-4 pt-10  whitespace-normal max-md:flex-wrap max-md:px-5 max-md:flex-wrap">
+        <div className="bg-[#FFF1C9] flex gap-4 px-4 pt-10 max-md:mx-auto  whitespace-normal max-md:flex-wrap  max-md:flex-wrap">
       <div className="bg-[#FFF1C9]">
-        <div className="mt-10">
-          <p className="w-full ml-[85px] font-['Arial'] whitespace-normal font-semibold text-sm text-[#F9B800] uppercase max-md:max-w-full">
+        <div className="mt-10 max-md:px-auto">
+          <p className=" ml-[85px] font-['Arial'] max-md:mx-10 whitespace-normal font-semibold text-sm text-[#F9B800] uppercase max-md:max-w-full">
             risus praesent vulputate.
           </p>
-          <div className="w-full pt-1 font-['Verdana'] hover:scale-105 transition-transform duration-300 ease-in-out whitespace-normal font-bold ml-20 text-4xl max-md:max-w-full max-md:text-2xl">
+          <div className=" pt-1 font-['Verdana'] max-md:mx-10 hover:scale-105 transition-transform duration-300 ease-in-out whitespace-normal font-bold ml-20 text-4xl max-md:text-2xl">
             Cursus Integer
-            <div className="flex-auto pt-2 font-['Verdana'] hover:scale-105 transition-transform duration-300 ease-in-out whitespace-normal font-bold max-md:text-2xl">
+            <div className="flex pt-2 font-['Verdana'] hover:scale-105 transition-transform duration-300 ease-in-out whitespace-normal font-bold max-md:text-2xl">
               Consequat Tristique.
             </div>
           </div>
         </div>
         <div className="flex gap-5 items-start px-5 w-full text-7xl whitespace-nowrap leading-[90px] max-md:flex-wrap max-md:max-w-full max-md:text-4xl">
         </div>
-        <div className="flex gap-3.5 ml-20 mt-10 font-semibold max-md:flex-wrap max-md:mt-10">
+        <div className="flex gap-3.5 ml-20 mt-10  max-md:mx-10 font-semibold max-md:flex-wrap max-md:mt-10">
           <div className="flex gap-2 justify-center py-3.5 pr-8 pl-5 bg-white rounded-full hover:bg-gray-100 transition duration-300 max-md:pr-5">
             <img
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/62e1164b6eb460caeb8f905d63fb1b94e005ea81a613e7de9147e77f474df64d?apiKey=2ab850804b89467986bf6d3429dba897&"
@@ -54,7 +54,7 @@ export default function landingpage(){
             <div className="my-auto text-sm">Integer Consequat</div>
           </div>
         </div>
-        <div className="flex gap-3.5 ml-20 mt-3.5 font-semibold max-md:flex-wrap">
+        <div className="flex gap-3.5 max-md:mx-10 ml-20 mt-3.5 font-semibold max-md:flex-wrap">
           <div className="flex gap-2 justify-center py-3.5 pr-7 pl-5 bg-white rounded-full hover:bg-gray-100 transition duration-300 max-md:pr-5">
             <img
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/62e1164b6eb460caeb8f905d63fb1b94e005ea81a613e7de9147e77f474df64d?apiKey=2ab850804b89467986bf6d3429dba897&"
@@ -72,7 +72,7 @@ export default function landingpage(){
             <div className="my-auto text-sm">Aliquot Tristique</div>
           </div>
         </div>
-        <div className="flex gap-3.5 ml-20 mt-3.5 font-semibold max-md:flex-wrap">
+        <div className="flex gap-3.5 max-md:mx-10 ml-20 mt-3.5 font-semibold max-md:flex-wrap">
           <div className="flex gap-2 justify-center py-3.5 pr-6 pl-5 bg-white rounded-full hover:bg-gray-100 transition duration-300 max-md:pr-5">
             <img
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/62e1164b6eb460caeb8f905d63fb1b94e005ea81a613e7de9147e77f474df64d?apiKey=2ab850804b89467986bf6d3429dba897&"
@@ -90,11 +90,11 @@ export default function landingpage(){
             <div className="my-auto text-sm">Mauris Fermentum Praesent</div>
           </div>
         </div>
-        <div className="flex gap-5 ml-20 justify-between px-12 pt-2 pb-2 mt-12 max-w-full bg-yellow-500 rounded-full w-[350px] hover:bg-yellow-600 transition duration-300 max-md:px-5 max-md:mt-10">
+        <div className="flex gap-5  max-md:mx-10 ml-20 justify-between px-12 pt-2 pb-2 mt-12 bg-yellow-500 rounded-full  hover:bg-yellow-600 transition duration-300  max-md:mt-10">
           <div className="text-md font-bold pt-1">Lorem Ipsum</div>
           <img
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/49ff386b9372c6be6b60f6e26a6d574f802724e28f81709a479c9aac92de4444?apiKey=2ab850804b89467986bf6d3429dba897&"
-            className="shrink-0 self-start aspect-square w-[30px]"
+            className=" self-start aspect-square w-[30px]"
             alt="icon"
           />
         </div>
@@ -110,7 +110,7 @@ export default function landingpage(){
 
         <div className=" bg-[#F9B800] flex gap-4 px-4 pt-10 max-md:flex-wrap  ">
             <div className="bg-[#F9B800]">
-            <div className="flex flex-col  ml-20 mt-10 mb-10 font-bold max-w-[575px] ">
+            <div className="flex flex-col max-md:mx-10 ml-20 mt-10 mb-10 font-bold max-w-[575px] ">
       <div className="w-full text-4xl font-['Verdana'] font-bold max-md:max-w-full max-md:text-4xl hover:scale-105 transition-transform duration-300 ease-in-out">
         Phasellus a vitae iaculis magna eleifend pulvinar velit odio.
       </div>
@@ -123,7 +123,7 @@ export default function landingpage(){
         vulputate et vulputate suspendisse natoque id tellus consectetur
         pulvinar et.{" "}
       </div>
-      <div className="flex gap-5 justify-between hover:bg-gray-600 transition duration-300 max-md:px-5 max-md:mt-10 px-12 pt-3 pb-2 mt-12 max-w-full text-md text-white bg-neutral-800 rounded-[5000px] w-[350px] max-md:px-5 max-md:mt-10">
+      <div className="flex gap-5 justify-between hover:bg-gray-600 transition duration-300 max-md:px-5 max-md:mt-10 px-12 pt-3 pb-2 mt-12 text-md text-white bg-neutral-800 rounded-[5000px] max-md:px-6 max-md:mt-10">
         <div>Lorem Ipsum</div>
         <img
           loading="lazy"
@@ -141,7 +141,7 @@ export default function landingpage(){
 
         <div className=" bg-[#262626] flex gap-4 px-4 pt-10 max-md:flex-wrap  ">
             <div className="bg-[#262626] mb-10">
-            <div className="flex flex-col ml-20 mt-[150px] font-bold max-w-[552px]">
+            <div className="flex flex-col max-md:mx-10 ml-20 mt-[150px] font-bold max-w-[552px]">
       <div className="w-full text-md font-light tracking-wide hover:scale-105 transition-transform duration-300 ease-in-out text-yellow-500 max-md:max-w-full">
         Quisque porttitor vitae vel amet neque scelerisque mattis.
         <br/>
@@ -152,7 +152,7 @@ export default function landingpage(){
         <br />
         Aliquam Tristique.{" "}
       </div>
-      <div className="flex gap-5 justify-between hover:bg-gray-300 transition duration-300 max-md:px-5 max-md:mt-10 px-12 pt-3 pb-2 mt-12 max-w-full text-md text-black bg-white rounded-[5000px] w-[350px] max-md:px-5 max-md:mt-10">
+      <div className="flex gap-5 justify-between hover:bg-gray-300 transition duration-300 max-md:px-5 max-md:mt-10 px-12 pt-3 pb-2 mt-12 max-w-full text-md text-black bg-white rounded-[5000px]  max-md:px-6  max-md:mt-10">
         <div>Lorem Ipsum</div>
         <img
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/49ff386b9372c6be6b60f6e26a6d574f802724e28f81709a479c9aac92de4444?apiKey=2ab850804b89467986bf6d3429dba897&"
@@ -303,7 +303,7 @@ export default function landingpage(){
 
         <div className="bg-[#F9B800] flex gap-4 px-4  pt-10 max-md:flex-wrap ">
             <div className="bg-[#F9B800] mb-10" >
-            <div className="flex flex-col ml-20 mr-4 mt-10  mb-10 text-xl font-semibold max-w-[611px] text-neutral-800">
+            <div className="flex flex-col max-md:mx-10 ml-20 mr-4 mt-10  mb-10 text-xl font-semibold max-w-[611px] text-neutral-800">
       <div className="w-full text-4xl hover:scale-105 transition-transform duration-300 ease-in-out font-['Verdana'] font-bold font-bold max-md:max-w-full max-md:text-xl">
         Cursus Integer <br />
         Consequat Tristique.{" "}
@@ -314,7 +314,7 @@ export default function landingpage(){
           className="shrink-0 aspect-square w-[20px]"
         />
         <div className="my-auto text-sm">
-          Ac viverra sed risus praesent vulputate.{" "}
+          Ac viverra sed risus praesent.{" "}
         </div>
       </div>
       <div className="flex gap-2 justify-center self-start px-5 py-3.5 mt-3.5 bg-white rounded-[5000px]">
@@ -332,7 +332,7 @@ export default function landingpage(){
           className="shrink-0 aspect-square w-[20px]"
         />
         <div className="my-auto  text-sm max-md:max-w-full ">
-          Sollicitudin ornare tempus nulla varius pulvinar.
+          Sollicdin orna tempus pulvinar.
         </div>
       </div>
       <div className="flex gap-3.5 mt-3.5 max-md:flex-wrap">
@@ -357,10 +357,10 @@ export default function landingpage(){
           className="shrink-0 aspect-square w-[20px]"
         />
         <div className="my-auto text-sm max-md:max-w-full">
-          Vulputate et vulputate suspendisse
+          Vulput vulputate suspendisse
         </div>
       </div>
-      <div className="flex gap-5 justify-between px-12 hover:bg-gray-600 transition duration-300 p-3 pb-2 mt-12 max-w-full text-white bg-black rounded-[5000px] w-[350px] max-md:px-5 max-md:mt-10">
+      <div className="flex gap-5 max-md:mx-5 justify-between px-12 hover:bg-gray-600 transition duration-300 p-3 pb-2 mt-12  text-white bg-black rounded-[5000px] max-md:px-6 max-md:mt-10">
         <div className="text-md font-bold ">Lorem Ipsum</div>
         <img
           loading="lazy"
@@ -503,7 +503,7 @@ export default function landingpage(){
     </div>
     </div>
         </div>
-</>
+</div>
    
     )
 }
